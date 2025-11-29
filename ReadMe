@@ -1,0 +1,22 @@
+Data Challenge for Master of Data Science, University of Lille/Centrale Lille/IMT Nord Europe - 2024 in kaggle www.kaggle.com/competitions/celp/overview/citation 
+
+Overview
+
+Using Natural Language Processing (NLP) and machine learning for applications related to language teaching and learning has garnered significant interest. One prominent application within this domain involves automated assessment and grading of learner output texts, particularly in language exams.
+Another crucial task is the automatic classification of learners 'proficiency levels, using a predetermined scale or set of levels, based on their written compositions'.
+
+Among the most widely recognized proficiency scales for assessing foreign language learners is the six-level framework established by the Common European Framework of Reference for Languages (CEFR).
+This framework delineates proficiency levels across three broader categories: basic, independent, and proficient users, as illustrated in this Table. 
+
+The CEFR maps linguistic competence in a foreign language onto six reference levels, described to be shared by European countries: A1, A2, B1, B2, C1 and C2.
+
+The Council of Europe provides rough descriptions concerning what learners at each of the six levels “can do”. To name a few examples, this ranges from “Can understand and use familiar everyday expressions and very basic phrases […]” at level A1 to “Can express him/herself spontaneously, very fluently and precisely, differentiating finer shades of meaning even in more complex situations” at level C2.
+
+The goal of this challenge is to develop an ML/DL based algorithm to predict the level of competence of a learner, from one of these written productions comprising between 20 and 300 words
+
+Evaluation
+Evaluation metric
+The CEFR level classifications are evaluated on accuracy of the vocabulary levels and readability using readily available formulas. The evaluation metric for this competition is the Classification Accuracy. Accuracy is the ratio of number of correct predictions to the total number of input samples.
+The Accuracy score is given by: accuracy = number of correct prediction / number total of predictions
+
+
